@@ -1,0 +1,46 @@
+@import "./colors";
+
+@mixin button($primary) {
+    background: $primary;
+
+    &:hover {
+        background: $CTA-hoverBG;
+        color: $text-white;
+    }
+
+    &:active {
+        background: darken($CTA-text, 2%);
+    }
+}
+
+@mixin outline($outline) {
+    border: 1px solid $outline;
+
+    &:hover {
+        background: $text-white;
+        color: $CTA-text;
+    }
+
+    &:active {
+        background: darken($outline, 25%);
+    }
+}
+
+.btn {
+    color: $text-white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.btn-primary {
+    @include button($text-white);
+    color: $CTA-text;
+}
+
+.btn-outline {
+    @include outline($text-white);
+    color: $text-white;
+}
