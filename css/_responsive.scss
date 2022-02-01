@@ -1,0 +1,30 @@
+@media (min-width: 1440px) {
+    .hero-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+
+        h1 {
+            color: $text-white;
+            font-size: 5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: $text-white;
+            font-size: 18px;
+            font-weight: lighter;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .cta {
+            margin-top: 48px;
+            display: flex;
+            gap: 16px;
+        }
+    }
+}

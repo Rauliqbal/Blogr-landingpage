@@ -138,6 +138,12 @@ body {
   color: #c8c8cb;
 }
 
+.nav .nav-menu .menu-items:hover .sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav .nav-menu .menu-items .arrow {
   margin-left: 1rem;
 }
@@ -173,12 +179,6 @@ body {
 
 .nav .nav-menu .sub-menu a:hover {
   color: #1f3f5b;
-}
-
-.nav .sub-menu.active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .nav .nav-menu.active {

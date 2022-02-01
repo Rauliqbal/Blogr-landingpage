@@ -59,9 +59,9 @@
                     color: $bg-footer;
                 }
 
-                // .sub-menu {
-                //     display: flex;
-                //  }
+                .sub-menu {
+                    display: flex;
+                }
             }
 
             .arrow {
@@ -92,10 +92,6 @@
                 }
             }
         }
-    }
-
-    .sub-menu.active {
-        display: flex;
     }
 
     .nav-menu.active {
